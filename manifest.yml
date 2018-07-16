@@ -1,7 +1,7 @@
 ---
 applications:
-- name: java-app-name
+- name: java-cloudant
   memory: 256M
   path: target/JavaCloudantApp.war
   services:
-  - Cloudant-instance-goes-here
+  - Cloudant-xx
